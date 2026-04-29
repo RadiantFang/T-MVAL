@@ -34,6 +34,7 @@ python3 sample_finetuned_diffusion.py -f 40
 
 ## 说明
 
+- 模型权重地址：<https://huggingface.co/FmikGy/T-MVAL>，正在陆续上传
 - `value_network_warmup.py` 默认会额外导出 `checkpoints/value_replay_seed.pt`
 - `finetuning.py` 默认使用 `oracle_finetune.ckpt` 作为训练 oracle，`oracle_eval.ckpt` 作为评估 oracle
 - `enformer_regressor.py` 使用自定义 `load_from_checkpoint()` 来兼容当前仓库的 `.ckpt` 文件
